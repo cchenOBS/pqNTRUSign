@@ -41,7 +41,7 @@ void keygen(
     int64_t *fntt = buf;
     int64_t *gntt = buf  + param->padded_N;
     int64_t *hntt = gntt + param->padded_N;
-    int64_t *tmp  = hntt + param->padded_N;  ;
+    int64_t *tmp  = hntt + param->padded_N;
 
 
     memset(buf, 0, sizeof(int64_t)*param->padded_N*4);
